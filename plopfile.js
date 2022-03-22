@@ -1,6 +1,6 @@
 /* eslint-disable */
 const { readdirSync } = require("fs");
-const APP_NAME = "react-starter"
+const APP_NAME = "pdf-editor-web"
 
 const getDirectories = (source) =>
     readdirSync(source, { withFileTypes: true })
